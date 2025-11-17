@@ -1,5 +1,12 @@
+import AboutHero from "../components/about/AboutHero";
+
 const page = () => {
-  return <div>About page</div>;
+  return (
+    <>
+      <AboutHero />
+      {/* next sections go here: Philosophy, Values, Timeline, etc. */}
+    </>
+  );
 };
 
 export default page;

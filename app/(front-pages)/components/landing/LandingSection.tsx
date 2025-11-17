@@ -43,19 +43,25 @@ const LandingSection = () => {
         </div>
       </div>
       <motion.div
-        className="absolute bottom-8 left-1/2 z-20 -translate-x-1/2 flex flex-col items-center gap-2 text-gray-200"
-        animate={{ y: [0, -6, 0], opacity: [0.5, 1, 0.5] }}
-        transition={{
-          duration: 1.6,
-          repeat: Infinity,
-          ease: "easeInOut",
-        }}
+        className="pointer-events-none absolute inset-x-0 bottom-10 flex justify-center"
+        initial={{ opacity: 0, y: 8 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.9, ease: "easeOut", delay: 1.1 }}
       >
-        <span className="text-[10px] tracking-[0.3em] uppercase font-inter">
-          Scroll
-        </span>
-        {/* Little line / bar */}
-        <div className="h-8 w-px bg-gray-200/70" />
+        <div className="flex flex-col items-center gap-2 text-[10px] font-inter tracking-[0.28em] text-gray-500 uppercase">
+          <span>Scroll to discover</span>
+          <div className="h-8 w-px overflow-hidden bg-gray-600/40">
+            <motion.div
+              className="h-full w-px bg-gray-300"
+              animate={{ y: ["-100%", "100%"] }}
+              transition={{
+                duration: 1.8,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
+            />
+          </div>
+        </div>
       </motion.div>
     </section>
   );

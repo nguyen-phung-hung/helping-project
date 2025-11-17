@@ -4,7 +4,7 @@
 import LandingSection from "./components/landing/LandingSection";
 import AboutSection from "./components/landing/AboutSection";
 import RoomsSection from "./components/landing/RoomSection";
-import Footer from "./components/Footer";
+
 import GallerySection from "./components/landing/GallerySection";
 import ReviewSection from "./components/landing/ReviewSection";
 // import Link from "next/link";
@@ -17,7 +17,7 @@ export default function Home() {
       <RoomsSection />
       <GallerySection />
       <ReviewSection />
-      <Footer />
+      {/* <Footer /> */}
       {/* <ThemeSwitcher /> */}
     </div>
   );
