@@ -10,6 +10,7 @@ import {
   useTransform,
   type Variants,
 } from "framer-motion";
+import { ParallaxWrapper } from "@/components/ParallawxWrapper";
 
 const easeSoft: [number, number, number, number] = [0.25, 0.8, 0.4, 1];
 
@@ -234,7 +235,8 @@ export default function AboutHero() {
           </motion.div>
 
           {/* Philosophy card */}
-          <motion.div
+
+          <ParallaxWrapper
             variants={textItem}
             className="
               relative rounded-3xl border border-white/10 bg-white/[0.02]
@@ -252,7 +254,7 @@ export default function AboutHero() {
               breathe. Aurelia Haven is less about spectacle, and more about how
               a place feels once the city noise falls away.
             </p>
-          </motion.div>
+          </ParallaxWrapper>
 
           {/* Scroll hint */}
           <motion.div

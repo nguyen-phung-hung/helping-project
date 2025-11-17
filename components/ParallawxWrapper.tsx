@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform, Variants } from "framer-motion";
 import { useRef, ReactNode } from "react";
 
 type ParallaxWrapperProps = {
@@ -12,12 +12,14 @@ type ParallaxWrapperProps = {
    */
   amount?: number;
   className?: string;
+  variants?: Variants;
 };
 
 export function ParallaxWrapper({
   children,
   amount = 80,
   className,
+  variants,
 }: ParallaxWrapperProps) {
   const ref = useRef<HTMLDivElement | null>(null);
 
@@ -34,7 +36,12 @@ export function ParallaxWrapper({
   const y = useTransform(scrollYProgress, [0, 1], [amount, -amount]);
 
   return (
-    <motion.div ref={ref} style={{ y }} className={className}>
+    <motion.div
+      ref={ref}
+      style={{ y }}
+      className={className}
+      variants={variants}
+    >
       {children}
     </motion.div>
   );
