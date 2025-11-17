@@ -64,7 +64,7 @@ export default function AboutDesignPhilosophy() {
     offset: ["start 80%", "end 10%"],
   });
 
-  const cardY = useTransform(scrollYProgress, [0, 1], [30, -20]);
+  const cardY = useTransform(scrollYProgress, [0, 1], [30, -50]);
   const ambientOpacity = useTransform(scrollYProgress, [0, 1], [0.4, 0.8]);
 
   // 🔸 NEW: whole-section dim as you scroll past
