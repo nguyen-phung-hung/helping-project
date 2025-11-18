@@ -7,18 +7,21 @@ import RoomsSection from "./components/landing/RoomSection";
 
 import GallerySection from "./components/landing/GallerySection";
 import ReviewSection from "./components/landing/ReviewSection";
+import SmoothScrollLayout from "./components/SmoothScrollLayout";
 // import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex-1 w-full flex flex-col items-center">
-      <LandingSection />
-      <AboutSection />
-      <RoomsSection />
-      <GallerySection />
-      <ReviewSection />
-      {/* <Footer /> */}
-      {/* <ThemeSwitcher /> */}
-    </div>
+    <SmoothScrollLayout pages={7}>
+      <div className="flex-1 w-full flex flex-col items-center">
+        <LandingSection />
+        <AboutSection />
+        <RoomsSection />
+        <GallerySection />
+        <ReviewSection />
+        {/* <Footer /> */}
+        {/* <ThemeSwitcher /> */}
+      </div>
+    </SmoothScrollLayout>
   );
 }
