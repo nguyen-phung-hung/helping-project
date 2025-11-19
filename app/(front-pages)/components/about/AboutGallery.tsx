@@ -181,7 +181,7 @@ export default function AboutSignatureGallery() {
 
             <p className="font-inter text-sm md:text-[15px] text-gray-400 leading-relaxed">
               A small collection of still frames that hold the feeling of
-              Aurelia Haven—soft corridors, elevated city light, and details
+              Pullman Danang—soft corridors, elevated city light, and details
               that stay with you long after checkout.
             </p>
           </div>

@@ -224,7 +224,7 @@ export default function AboutEssence() {
             variants={textItem}
             className="font-inter text-[11px] uppercase tracking-[0.32em] text-gray-500"
           >
-            Essence of Aurelia
+            Essence of Pullman
           </motion.p>
 
           <motion.div variants={textItem} className="space-y-4">

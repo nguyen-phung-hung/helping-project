@@ -213,7 +213,7 @@ export default function AboutHero() {
             {/* bottom label */}
             <div className="pointer-events-none absolute inset-x-0 bottom-0 flex justify-between px-6 py-4 text-[11px] uppercase tracking-[0.22em] text-gray-300/80">
               <span className="font-inter">City Retreat</span>
-              <span className="font-inter text-gray-400">Aurelia Haven</span>
+              <span className="font-inter text-gray-400">PULLMAN DANANG</span>
             </div>
           </motion.div>
         </div>
@@ -227,7 +227,7 @@ export default function AboutHero() {
         >
           <motion.div variants={textItem} className="space-y-4">
             <p className="font-inter text-[11px] uppercase tracking-[0.35em] text-gray-400">
-              About Aurelia Haven
+              About PULLMAN DANANG
             </p>
 
             <h1 className="font-playfair text-3xl md:text-5xl leading-tight tracking-[0.06em] text-gray-100">
@@ -238,7 +238,7 @@ export default function AboutHero() {
             <div className="h-px w-16 bg-white/20" />
 
             <p className="font-inter text-sm md:text-base text-gray-400 leading-relaxed max-w-xl">
-              Aurelia Haven is a modern boutique retreat where soft light, calm
+              Pullman Danang is a modern boutique retreat where soft light, calm
               architecture, and considered details shape every stay. Designed
               for unhurried evenings, slow mornings, and travelers who prefer
               quiet luxury over noise.

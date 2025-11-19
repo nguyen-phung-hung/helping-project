@@ -17,7 +17,7 @@ const LandingSection = () => {
 
       <div className="z-10 flex w-full h-full flex-col justify-center gap-6">
         <h1 className="font-playfair text-4xl md:text-6xl tracking-[0.18em] text-white">
-          AURELIA HAVEN
+          PULL MAN DA NANG
         </h1>
         <p className="mt-4 font-inter text-sm md:text-base text-gray-200">
           Where Modern Comfort Meets Timeless Design.

@@ -44,7 +44,7 @@ const featuredPosts: FeaturedPost[] = [
     title: "Blue hour over the water.",
     blurb:
       "Why we dim the pool lights as the city brightens—an experiment in leaving the stars in charge.",
-    image: "/gallery/pool-dusk.jpg",
+    image: "/blog/mut-tet-min.png",
     layout: "wide",
   },
   {
@@ -55,7 +55,7 @@ const featuredPosts: FeaturedPost[] = [
     title: "Skyline from the upper suites.",
     blurb:
       "Sightlines, curtain gaps, and the kind of silence that still sees the whole bay.",
-    image: "/gallery/rooftop-night.jpg",
+    image: "/blog/red-envolop.png",
     layout: "small",
   },
   {
@@ -66,7 +66,7 @@ const featuredPosts: FeaturedPost[] = [
     title: "Why the hallways never feel like halls.",
     blurb:
       "Soft corners, low sconces, and why some doors barely look like doors at all.",
-    image: "/gallery/detail-texture.jpg",
+    image: "/blog/lion-dance.png",
     layout: "small",
   },
   {
@@ -77,7 +77,7 @@ const featuredPosts: FeaturedPost[] = [
     title: "Tuning the scent of a room.",
     blurb:
       "How a quiet citrus note became the baseline for every floor above the bay.",
-    image: "/gallery/bar-detail.jpg",
+    image: "/blog/tet-road.png",
     layout: "wide",
   },
   {
@@ -376,7 +376,7 @@ export default function BlogHeroMosaic() {
             animate="visible"
             className="font-inter text-[11px] uppercase tracking-[0.35em] text-gray-400"
           >
-            Aurelia Journal
+            Pullman Journal
           </motion.p>
 
           <motion.h1

@@ -9,14 +9,14 @@ const navLinks = [
 ];
 
 const infoLinks = [
-  { label: "+1 (555) 214-0923", href: "tel:+15552140923" },
-  { label: "stay@aureliahaven.com", href: "mailto:stay@aureliahaven.com" },
+  { label: "+84 236 395 8888", href: "tel:+84 236 395 8888" },
+  { label: "stay@pullmandanang.com", href: "mailto:stay@pullmandanang.com" },
 ];
 
 const socialLinks = [
   { label: "Instagram", href: "https://instagram.com" },
   { label: "Facebook", href: "https://facebook.com" },
-  { label: "Pinterest", href: "https://pinterest.com" },
+  { label: "Youtube", href: "https://pinterest.com" },
 ];
 
 export default function Footer() {
@@ -31,7 +31,7 @@ export default function Footer() {
               <Logo />
               <div>
                 <h2 className="font-playfair text-sm md:text-base tracking-[0.22em] text-white uppercase">
-                  Aurelia Haven
+                  PULL MAN DA NANG
                 </h2>
                 <p className="font-inter text-[11px] tracking-[0.28em] text-gray-400 uppercase mt-1">
                   Quiet Luxury Hotel
@@ -40,9 +40,11 @@ export default function Footer() {
             </div>
 
             <p className="font-inter text-sm text-gray-400 leading-relaxed max-w-sm">
-              A modern boutique retreat where architecture, calm, and considered
-              details shape every stay. Designed for unhurried evenings, slow
-              mornings, and guests who prefer quiet luxury over noise.
+              A contemporary coastal retreat designed for relaxation,
+              connection, and effortless comfort. Set along the pristine shores
+              of Bac My An Beach, Pullman Danang Beach Resort offers stylish
+              rooms, elevated dining, and memorable experiences for travelers
+              seeking both energy and tranquility.
             </p>
           </div>
 
@@ -71,9 +73,9 @@ export default function Footer() {
             </h3>
 
             <div className="space-y-2 text-sm font-inter text-gray-400">
-              <p>78 Aurelia Way</p>
-              <p>Midtown District, New York</p>
-              <p>NY 10018, United States</p>
+              <p>101 Vo Nguyen Giap Street</p>
+              <p>Ngu Hanh Son Ward</p>
+              <p>Da Nang 550000, Vietnam</p>
             </div>
 
             <div className="space-y-1">
@@ -115,7 +117,7 @@ export default function Footer() {
         {/* Bottom row */}
         <div className="mt-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-3">
           <p className="font-inter text-[11px] text-gray-500">
-            © {new Date().getFullYear()} Aurelia Haven. All rights reserved.
+            © {new Date().getFullYear()} Pullman Danang. All rights reserved.
           </p>
 
           <div className="flex flex-wrap gap-4 text-[11px] font-inter text-gray-500">

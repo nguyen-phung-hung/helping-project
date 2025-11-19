@@ -21,7 +21,7 @@ const storyEvents: StoryEvent[] = [
     year: "2014",
     label: "Sketches & hillside",
     title: "A quiet slope above the avenue.",
-    body: "Before Aurelia had a name, there was only a hillside above the main avenue where the city hum fell away. A place where the view wasn’t yet famous, but the air felt like the first deep breath after a long day.",
+    body: "Before Pullman had a name, there was only a hillside above the main avenue where the city hum fell away. A place where the view wasn’t yet famous, but the air felt like the first deep breath after a long day.",
     image: "/gallery/pool-dusk.jpg",
   },
   {
@@ -42,7 +42,7 @@ const storyEvents: StoryEvent[] = [
     year: "2023",
     label: "Doors open",
     title: "A hotel that edits out the noise.",
-    body: "Aurelia Haven opened with fewer rooms than planned and more corners left empty on purpose. The building is still tuned softly over time—light levels, textures, and even scents adjusted to stay one step quieter than the city below.",
+    body: "Pullman Danang opened with fewer rooms than planned and more corners left empty on purpose. The building is still tuned softly over time—light levels, textures, and even scents adjusted to stay one step quieter than the city below.",
     image: "/gallery/lobby-evening.jpg",
   },
 ];
@@ -154,11 +154,11 @@ export default function AboutStoryOfAurelia() {
         {/* Heading */}
         <div className="max-w-3xl space-y-4">
           <p className="font-inter text-[11px] uppercase tracking-[0.35em] text-gray-400">
-            Story of Aurelia
+            Story of Pullman
           </p>
           <h2 className="font-playfair text-3xl md:text-4xl leading-tight tracking-[0.06em]">
             How a quiet hillside
-            <br className="hidden md:block" /> became Aurelia Haven.
+            <br className="hidden md:block" /> became Pullman Danang.
           </h2>
           <p className="mt-4 font-inter text-sm md:text-[15px] text-gray-400 leading-relaxed max-w-xl">
             A slow vertical walk through the years—from the first sketches on

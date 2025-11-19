@@ -10,11 +10,11 @@ export function AboutSection() {
       <div className="mx-auto max-w-6xl px-6 grid md:grid-cols-2 gap-16 items-center">
         {/* Thin Image with parallax */}
         <ParallaxWrapper
-          amount={100}
+          amount={200}
           className="relative w-full max-w-sm mx-auto h-[600px] rounded-2xl overflow-hidden border border-white/10 shadow-lg shadow-black/20"
         >
           <Image
-            src="/hallway.jpg"
+            src="/about-section.jpg"
             alt="Hotel interior"
             fill
             className="object-cover object-center"
@@ -30,12 +30,14 @@ export function AboutSection() {
           <div className="w-14 h-px bg-white/20 mb-8"></div>
 
           <p className="font-inter text-gray-400 text-base md:text-lg leading-relaxed md:leading-loose">
-            Aurelia Haven is a modern boutique retreat where architecture,
-            comfort, and calm intersect. Framed by clean lines and warm interior
-            light, our suites are designed as private sanctuaries for travelers
-            who value quiet luxury over noise. Thoughtful amenities, curated
-            textures, and seamless digital service ensure every stay feels
-            intentionally crafted.
+            Pullman Danang Beach Resort is a contemporary beachfront escape
+            where modern design, coastal serenity, and effortless comfort come
+            together. Overlooking the pristine sands of Bac My An Beach, our
+            rooms and suites are crafted as relaxing havens for travelers
+            seeking sophistication and tranquility in the heart of Da Nang.
+            Thoughtfully curated amenities, refined textures, and intuitive
+            digital services ensure every stay feels seamless, refreshing, and
+            distinctly memorable.
           </p>
           <Link href={"/about"}>
             <div className="mt-8 text-xs md:text-sm font-inter tracking-[0.2em] uppercase text-gray-200 hover:text-white">

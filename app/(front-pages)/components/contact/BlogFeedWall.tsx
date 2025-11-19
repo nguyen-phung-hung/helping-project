@@ -293,7 +293,6 @@ export default function BlogFeedWall() {
       ref={sectionRef}
       className="relative w-full overflow-hidden bg-[#050505] py-18 md:py-24 text-gray-100"
     >
-      {/* global subtle grid */}
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0 bg-[repeating-linear-gradient(to_right,rgba(255,255,255,0.02)_0,rgba(255,255,255,0.02)_1px,transparent_1px,transparent_30px),repeating-linear-gradient(to_bottom,rgba(255,255,255,0.02)_0,rgba(255,255,255,0.02)_1px,transparent_1px,transparent_30px)] opacity-40"
