@@ -1,5 +1,11 @@
+import EventsSeasonalTimeline from "../components/events/EventsSeasonalTimeline";
+
 const page = () => {
-  return <div>Events</div>;
+  return (
+    <>
+      <EventsSeasonalTimeline />
+    </>
+  );
 };
 
 export default page;

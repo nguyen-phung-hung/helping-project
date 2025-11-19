@@ -165,7 +165,7 @@ export default function AboutEssence() {
   });
 
   // Parallax for pillars column
-  const pillarsY = useTransform(scrollYProgress, [0, 1], [80, -80]);
+  const pillarsY = useTransform(scrollYProgress, [0, 1], [100, -150]);
 
   // Vertical progress line
   const lineScale = useTransform(scrollYProgress, [0, 1], [0, 1]);

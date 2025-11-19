@@ -1,5 +1,13 @@
+import BlogHeroGallery from "../components/blog/BlogHeroGallery";
+import BlogFeedWall from "../components/contact/BlogFeedWall";
+
 const page = () => {
-  return <div>Blogs</div>;
+  return (
+    <>
+      <BlogHeroGallery />
+      <BlogFeedWall />
+    </>
+  );
 };
 
 export default page;

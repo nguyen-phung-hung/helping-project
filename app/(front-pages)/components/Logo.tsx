@@ -13,8 +13,8 @@ const Logo = ({ className = "w-16 h-16", asLink = true }: LogoProps) => {
   const inner = (
     <div className={`relative ${className}`}>
       <Image
-        src="/logo.png"
-        alt="Aurelia Haven logo"
+        src="/pullman-logo.png"
+        alt="Pullman logo"
         fill
         priority
         className="object-contain"

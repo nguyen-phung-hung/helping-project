@@ -59,8 +59,8 @@ const Navigation = () => {
         <div className="flex items-center gap-3">
           <Logo />
           <h1 className="font-playfair text-sm md:text-lg tracking-[0.18em] text-white">
-            <span className="inline-block pr-[0.05em]">Aurelia</span>{" "}
-            <span className="inline-block tracking-[0.22em]">Haven</span>
+            <span className="inline-block pr-[0.05em]">Pullman</span>{" "}
+            <span className="inline-block tracking-[0.22em]">Danang</span>
           </h1>
         </div>
 

@@ -73,7 +73,7 @@ const IntroOverlay = () => {
               exit={{ opacity: 0 }}
               transition={{ duration: 0.9, ease: "easeOut", delay: 0.15 }}
             >
-              AURELIA HAVEN
+              PULL MAN DA NANG
             </motion.p>
 
             {/* Underline */}
