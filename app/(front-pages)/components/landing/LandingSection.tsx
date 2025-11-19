@@ -6,7 +6,7 @@ const LandingSection = () => {
     <section className="w-full h-screen px-16">
       <div className="w-full h-full z-[-1] absolute left-0 top-0">
         <Image
-          src="/pullman.jpg"
+          src="/lunar-new-year.jpg"
           alt="Front Page"
           fill
           className="object-cover"
@@ -17,10 +17,10 @@ const LandingSection = () => {
 
       <div className="z-10 flex w-full h-full flex-col justify-center gap-6">
         <h1 className="font-playfair text-4xl md:text-6xl tracking-[0.18em] text-white">
-          PULL MAN DA NANG
+          PULLMAN DANANG
         </h1>
         <p className="mt-4 font-inter text-sm md:text-base text-gray-200">
-          Where Modern Comfort Meets Timeless Design.
+          Tet Is for Rest, Not for Stress
         </p>
         <div className="mt-8 flex flex-wrap gap-4">
           <motion.button
