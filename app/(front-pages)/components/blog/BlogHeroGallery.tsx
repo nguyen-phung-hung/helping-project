@@ -33,7 +33,7 @@ const featuredPosts: FeaturedPost[] = [
     title: "When the lobby sounds like a quiet bar.",
     blurb:
       "Candles, glass, and late check-ins—the lobby after 10 p.m. becomes the calmest room in the building.",
-    image: "/gallery/lobby-evening.jpg",
+    image: "/blog/uhm.png",
     layout: "tall",
   },
   {
@@ -88,7 +88,7 @@ const featuredPosts: FeaturedPost[] = [
     title: "First light in the lounge.",
     blurb:
       "The way the city haze lifts off the windows just before breakfast begins.",
-    image: "/gallery/room-cityview.jpg",
+    image: "/blog/tet-holday.png",
     layout: "small",
   },
 ];

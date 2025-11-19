@@ -33,7 +33,7 @@ const feedPosts: FeedPost[] = [
     readTime: "3 min",
     title: "Late check-in, softer lobby.",
     blurb: "Why arrivals after midnight get the quietest version of the hotel.",
-    image: "/gallery/lobby-evening.jpg",
+    image: "/blog/mut-tet-min.png",
     layout: "medium",
   },
   {
@@ -43,7 +43,7 @@ const feedPosts: FeedPost[] = [
     readTime: "4 min",
     title: "When the bay fog climbs the hill.",
     blurb: "How the view disappears first, and then every other sound.",
-    image: "/gallery/room-cityview.jpg",
+    image: "/blog/tet-holday.png",
     layout: "wide",
   },
   {
@@ -53,7 +53,7 @@ const feedPosts: FeedPost[] = [
     readTime: "5 min",
     title: "Designing rooms that hide the tech.",
     blurb: "Screens, switches, and charging without the glow.",
-    image: "/gallery/detail-texture.jpg",
+    image: "/blog/red-envolop.png",
     layout: "small",
   },
   {
@@ -63,7 +63,7 @@ const feedPosts: FeedPost[] = [
     readTime: "3 min",
     title: "Why the pool is never quite still.",
     blurb: "Tiny edge overflows that erase footsteps from the water.",
-    image: "/gallery/pool-dusk.jpg",
+    image: "/blog/tet-road.png",
     layout: "medium",
   },
   {
@@ -73,7 +73,7 @@ const feedPosts: FeedPost[] = [
     readTime: "4 min",
     title: "Walking home along the upper slope.",
     blurb: "The quiet route back from the bay after dinner.",
-    image: "/gallery/rooftop-night.jpg",
+    image: "/blog/uhm.png",
     layout: "medium",
   },
   {
@@ -83,7 +83,7 @@ const feedPosts: FeedPost[] = [
     readTime: "2 min",
     title: "The sound of fresh linen.",
     blurb: "Why we changed the carts before we changed the sheets.",
-    image: "/gallery/bar-detail.jpg",
+    image: "/blog/lion-dance.png",
     layout: "small",
   },
 ];
