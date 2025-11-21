@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { ParallaxWrapper } from "@/components/ParallawxWrapper";
 import { type Variants } from "framer-motion";
+import { useRouter } from "next/navigation";
 
 const rooms = [
   {
@@ -55,6 +56,7 @@ const cardVariants = {
 };
 
 export function RoomsSection() {
+  const { push } = useRouter();
   return (
     <section id="rooms" className="relative w-full py-24 md:py-32">
       <div className="pointer-events-none absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-white/[0.02] to-transparent" />
@@ -131,6 +133,9 @@ export function RoomsSection() {
 
                 {/* CTA row */}
                 <motion.button
+                  onClick={() => {
+                    push(`/rooms`);
+                  }}
                   whileHover={{ x: 4 }}
                   whileTap={{ scale: 0.97 }}
                   transition={{ type: "spring", stiffness: 280, damping: 22 }}

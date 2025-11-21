@@ -11,6 +11,7 @@ const links = [
   { path: "/contact", label: "Contact" },
   { path: "/blog", label: "Blog" },
   { path: "/events", label: "Events" },
+  { path: "/rooms", label: "Rooms" },
 ];
 
 const underlineVariants = {
