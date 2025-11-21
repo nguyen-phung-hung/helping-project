@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const LandingSection = () => {
   return (
@@ -38,7 +39,7 @@ const LandingSection = () => {
             transition={{ type: "spring", stiffness: 300, damping: 20 }}
             className="px-7 py-3 rounded-full border border-white/70 text-white text-[11px] md:text-xs font-semibold tracking-[0.22em] uppercase font-inter bg-white/0 backdrop-blur-[1px]"
           >
-            View Rooms
+            <Link href="/rooms">View Rooms</Link>
           </motion.button>
         </div>
       </div>
