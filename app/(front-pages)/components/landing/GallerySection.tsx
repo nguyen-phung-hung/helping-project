@@ -13,32 +13,32 @@ type GalleryItem = {
 
 const galleryItems: GalleryItem[] = [
   {
-    src: "/gallery/lobby-evening.jpg",
+    src: "/gallery/gallery-1.jpg",
     alt: "Hotel lobby with warm evening lighting",
     label: "Lobby Lounge",
   },
   {
-    src: "/gallery/room-cityview.jpg",
+    src: "/gallery/gallery-2.jpg",
     alt: "Suite bedroom with city view",
     label: "Cityview Suite",
   },
   {
-    src: "/gallery/rooftop-night.jpg",
+    src: "/gallery/gallery-3.jpg",
     alt: "Rooftop terrace at night",
     label: "Rooftop Terrace",
   },
   {
-    src: "/gallery/bar-detail.jpg",
+    src: "/gallery/gallery-4.jpg",
     alt: "Minimal bar with ambient light",
     label: "Aurelia Bar",
   },
   {
-    src: "/gallery/pool-dusk.jpg",
+    src: "/gallery/gallery-5.jpg",
     alt: "Pool at dusk with reflections",
     label: "Pool at Dusk",
   },
   {
-    src: "/gallery/detail-texture.jpg",
+    src: "/gallery/gallery-6.jpg",
     alt: "Close-up of textures and decor",
     label: "Quiet Details",
   },

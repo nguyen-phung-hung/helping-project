@@ -3,6 +3,7 @@ import Navigation from "./components/navigation";
 // import SmoothScrollLayout from "./components/SmoothScrollLayout";
 import IntroSplash from "./components/IntroSlash";
 import Footer from "./components/Footer";
+import FloatingContactButton from "./components/FloatingContactButton";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -18,6 +19,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         <Footer />
         {/* </SmoothScrollLayout> */}
       </main>
+      <FloatingContactButton />
     </>
   );
 };

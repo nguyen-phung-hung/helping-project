@@ -8,10 +8,10 @@ import Logo from "./Logo";
 
 const links = [
   { path: "/about", label: "About" },
-  { path: "/contact", label: "Contact" },
   { path: "/blog", label: "Blog" },
   { path: "/events", label: "Events" },
   { path: "/rooms", label: "Rooms" },
+  { path: "/contact", label: "Contact" },
 ];
 
 const underlineVariants = {

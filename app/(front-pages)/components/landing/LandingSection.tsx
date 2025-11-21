@@ -6,7 +6,7 @@ const LandingSection = () => {
     <section className="w-full h-screen px-16">
       <div className="w-full h-full z-[-1] absolute left-0 top-0">
         <Image
-          src="/pullman-tet.jpg"
+          src="/hoi-an.jpg"
           alt="Front Page"
           fill
           className="object-cover"

@@ -32,30 +32,37 @@ type RawEvent = {
  *  Everything else is derived dynamically.
  *  ───────────────────────────── */
 const rawEvents: RawEvent[] = [
+  // ───────────────── 2026 EVENT #1 ─────────────────
   {
     id: "late-lobby-2026",
-    eventStart: "2026-05-18T20:00:00+07:00",
-    eventEnd: "2026-05-18T23:00:00+07:00",
-    category: "Stays",
-    title: "Late check-in, softer lobby.",
+    // (5 Jan – 18 Jan 2026) anchored on Feb 05 for the timeline label
+    eventStart: "2026-02-05T09:00:00+07:00",
+    eventEnd: "2026-02-05T21:00:00+07:00",
+    category: "Awareness / Tết Market",
+    title: `Tết Market Teaser — "Tết by the Sea Awaits."`,
     blurb:
-      "Arrivals after midnight get the quietest version of the hotel—candles, glassware, and low piano.",
-    location: "Lobby · After Dark",
-    image: "/gallery/lobby-evening.jpg",
+      "A first look at Pullman’s beachside Tết Market—vibrant lanterns, traditional décor, coastal food stalls, and festive check-in corners. A warm, inviting teaser that paints the feeling of celebrating Tết by the sea.",
+    location: "Pullman Danang Beachfront",
+    image: "/gallery/tet-market.jpg", // keep or change to any hero Tết visual you like
     layout: "tall",
   },
+
+  // ───────────────── 2026 EVENT #2 ─────────────────
   {
     id: "fog-bay-2026",
-    eventStart: "2026-02-22T17:00:00+07:00",
-    eventEnd: "2026-02-22T19:00:00+07:00",
-    category: "Neighborhood",
-    title: "When the bay fog climbs the hill.",
+    // (5 Jan – 15 Feb 2026) with Feb 10 as the highlighted day
+    eventStart: "2026-02-10T09:00:00+07:00",
+    eventEnd: "2026-02-10T21:00:00+07:00",
+    category: "Engagement / Interactive",
+    title: `"Tết at Pullman" Minigame — Guess & Win`,
     blurb:
-      "A guided walk that starts at the shoreline and ends with tea on the hillside terrace.",
-    location: "Bayfront · Hillside Walk",
-    image: "/gallery/room-cityview.jpg",
+      "A playful guessing minigame where guests identify the hidden Pullman Tết activity to unlock surprises. Designed to boost comments, shares, and curiosity toward Pullman’s Tết holiday experiences.",
+    location: "Instagram & Facebook Stories",
+    image: "/gallery/minigame-tet.jpg",
     layout: "wide",
   },
+
+  // ─────────── keep everything below exactly as you already have ───────────
   {
     id: "design-rooms-2025",
     eventStart: "2025-01-12T16:00:00+07:00",
@@ -70,7 +77,7 @@ const rawEvents: RawEvent[] = [
   },
   {
     id: "pool-never-still-2025",
-    eventStart: "2025-10-03T18:00:00+07:00", // ← October example
+    eventStart: "2025-10-03T18:00:00+07:00",
     eventEnd: "2025-10-03T20:00:00+07:00",
     category: "Design",
     title: "Why the pool is never quite still.",
